@@ -12,3 +12,5 @@ assembler handling of symbol tables. Prior knowledge of a C programming language
 presumed.
 
 Provided in repository is labs conducted in a UNIX environment.
+
+**Not all labs are fully provided/functional.**

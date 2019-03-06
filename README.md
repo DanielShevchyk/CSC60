@@ -1,6 +1,8 @@
 # CSC60
 Intro to System Programming - Unix - C (CSC 60)
+
 Class Description:
+
 Features of the C language commonly used in systems programming and the application of those
 features to systems programming in a UNIX environment. Topics include C preprocessor
 macros, I/O and bit-manipulation facilities; timesharing system concepts; file permissions; shell

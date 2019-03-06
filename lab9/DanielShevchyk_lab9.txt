@@ -1,0 +1,44 @@
+Script started on Sun 13 May 2018 05:08:20 PM PDT
+[shevchyd@sp2:21]> vim lab9.c[20Ga.out[K[20Ggcc lab9.c
+[shevchyd@sp2:22]> a.out
+csc60mshell> 
+argc= 0 
+no command entered. 
+csc60mshell>  
+argc= 0 
+no command entered. 
+csc60mshell> po wd
+argc= 1 
+argv[0] = pwd 
+Current Path: /gaia/class/student/shevchyd/csc60/lab9 
+csc60mshell> cd ..
+argc= 2 
+argv[0] = cd 
+argv[1] = .. 
+csc60mshell> pwd
+argc= 1 
+argv[0] = pwd 
+Current Path: /gaia/class/student/shevchyd/csc60 
+csc60mshell> cd lab9
+argc= 2 
+argv[0] = cd 
+argv[1] = lab9 
+csc60mshell> pwd
+argc= 1 
+argv[0] = pwd 
+Current Path: /gaia/class/student/shevchyd/csc60/lab9 
+csc60mshell> cd
+argc= 1 
+argv[0] = cd 
+HOME = /gaia/class/student/shevchyd 
+csc60mshell> pwd
+argc= 1 
+argv[0] = pwd 
+Current Path: /gaia/class/student/shevchyd 
+csc60mshell> exit
+argc= 1 
+argv[0] = exit 
+[shevchyd@sp2:23]> exit
+exit
+
+Script done on Sun 13 May 2018 05:09:06 PM PDT

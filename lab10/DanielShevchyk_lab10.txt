@@ -1,0 +1,41 @@
+Script started on Sun 20 May 2018 10:20:22 AM PDT
+[shevchyd@sp2:21]> gcc lab10.c
+[shevchyd@sp2:22]> ls > lsout
+lsout: File exists.
+[shevchyd@sp2:23]> cat lsout
+a.out
+execvp.c
+lab10.c
+lsout
+redir.c
+waitpid.c
+[shevchyd@sp2:24]> ls > lsout >fi[K[K file1
+Ambiguous output redirect.
+[shevchyd@sp2:25]> cat foo.txt
+cat: foo.txt: No such file or directory
+[shevchyd@sp2:26]> > lsout
+Invalid null command.
+[shevchyd@sp2:27]> < lsout
+Invalid null command.
+[shevchyd@sp2:28]> wc <lso[K[K[K lsout
+ 6  6 47
+[shevchyd@sp2:29]> wc < lsout >wc[K[K wcout
+[shevchyd@sp2:30]> cat wcout
+ 6  6 47
+[shevchyd@sp2:31]> wc < lsout < wcout
+Ambiguous input redirect.
+[shevchyd@sp2:32]> cd ../lab1
+[shevchyd@sp2:33]> gcc lab1.c
+[shevchyd@sp2:34]> a.out
+
+Lab 1 
+
+Hello World
+Hi,Daniel Shevchyk
+
+Time is merely an illusion
+
+[shevchyd@sp2:35]> exit
+exit
+
+Script done on Sun 20 May 2018 10:22:05 AM PDT

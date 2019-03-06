@@ -1,0 +1,45 @@
+Script started on Tue 20 Feb 2018 05:23:21 PM PST
+[shevchyd@sp2:21]> cat lab3.c
+/*-----------*/
+/*Daniel Shevchyk*/
+/*Lab 3*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    int age = 25;
+    double average = 246.7531986;
+    printf("\nDaniel Shevchyk. Lab3.\n\n");
+    printf("The dog ran quickly.\n\n");
+    printf("Joe is %d years old.\n\n",age);
+    printf("\"So many books, so little time.\"\n- Frank Zappa\n\n");
+    printf("The Average = %4.1f \n\n",average);
+    printf("The Average = %6.3f \n\n",average);
+    printf("The Average = %.2e \n\n",average);
+    return EXIT_SUCCESS;
+}
+
+[shevchyd@sp2:22]> gcc lab3.c
+[shevchyd@sp2:23]> a.out
+
+Daniel Shevchyk. Lab3.
+
+The dog ran quickly.
+
+Joe is 25 years old.
+
+"So many books, so little time."
+- Frank Zappa
+
+The Average = 246.8 
+
+The Average = 246.753 
+
+The Average = 2.47e+02 
+
+[shevchyd@sp2:24]> exit
+exit
+
+Script done on Tue 20 Feb 2018 05:23:38 PM PST

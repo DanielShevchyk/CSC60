@@ -1,0 +1,32 @@
+Script started on Fri 09 Feb 2018 04:25:36 PM PST
+[shevchyd@athena:21]> cat lab1.c
+/*-----------------------------*/
+/*Daniel Shevchyk--------------*/
+/*Section  --------------------*/
+/*Lab 1 -----------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+	printf("\nLab 1 \n\n");
+	printf("Hello World\n");
+	printf("Hi,Daniel Shevchyk\n\n");
+	printf("Time is merely an illusion\n\n");
+        return EXIT_SUCCESS;
+}
+[shevchyd@athena:22]> gcc lab1.c
+[shevchyd@athena:23]> a.out
+
+Lab 1 
+
+Hello World
+Hi,Daniel Shevchyk
+
+Time is merely an illusion
+
+[shevchyd@athena:24]> exot[K[Kit
+exit
+
+Script done on Fri 09 Feb 2018 04:25:55 PM PST
